@@ -1,0 +1,29 @@
+{
+  "name": "passwords",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "jasmine"
+  },
+  "description": "Passwords",
+  "author": {
+    "name": "Matt"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.8.2",
+    "nosql": "^5.0.3",
+    "openpgp": "^2.5.8",
+    "uuid": "^3.1.0",
+    "uuid4": "^1.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "jasmine-promise-tools": "^1.1.0"
+  }
+}
